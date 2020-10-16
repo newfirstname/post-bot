@@ -5,23 +5,23 @@ from telethon import functions, types
 import telethon
 from bot_functions import *
 import requests
-# import urllib.request
 
-# trust = requests.get('https://hamid814.github.io/public-js/trust.json').json()['trust']
 
-# print(trust)
 
-client_name = 'poster-client'
-bot_name = 'poster-bot'
-API_ID = 1759413
-API_HASH = '609e3756b5a95466c9422ab57eea37bb'
-BOT_TOKEN = '1345211056:AAFR3DP5XNfHtQWosz2xZkqV9kkpcSJK9fc'
+
+
+
+client_name = ''
+bot_name = ''
+API_ID = 
+API_HASH = ''
+BOT_TOKEN = ''
 
 chatId = None
 destChatId = None
 
-# r = urllib.request.urlopen('https://hamid814.github.io/public-js/trust.json')
-# print(r.read())
+
+
 
 client = TelegramClient(client_name, API_ID, API_HASH)
 bot = TelegramClient(bot_name, API_ID, API_HASH)
@@ -45,12 +45,12 @@ async def new_message_handler(event):
   if event.message.from_id != 777000:
     # check if its recieving message
     if event.out == False:
-      message = await client(functions.channels.GetMessagesRequest(
-        channel=event.message.to_id.channel_id,
-        id=[event.message.id]
-      ))
+      
+        
+        
+      
 
-      await client.send_message('@autopostingnewbot', message.messages[0])
+      print('new message')
 
 async def joinChannel(id):
   channel = await client.get_entity(id)
