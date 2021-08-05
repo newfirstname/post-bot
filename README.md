@@ -44,7 +44,7 @@ Then we must initialize the database with running the `bot/initDB.py` file:
 $ py bot/initDB.py
 ```
 
-### Telegram Creadentials
+### Telegram Credentials
 
 Now in order to get access to telgram we need an `api id` and an `api hash` witch you can get them from [here](https://my.telegram.org/), its fairly straight forward...
 
