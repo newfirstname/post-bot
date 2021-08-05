@@ -70,7 +70,7 @@ BOT_TOKEN = '123'
 
 ## Start The Bot
 
-Now you must be able to run the bt and use all its forwarding options **exept filterings** ( we will add and remove filters with the UI ).
+Now you must be able to run the bot and use all its forwarding options **exept filterings** ( we will add and remove filters with the UI ).
 
 To run the bot run:
 
@@ -112,7 +112,7 @@ Now you can test the bot, it will forward messages from every-where ( public ) t
 
 # Add Web-Based User Interface to edit filters
 
-first step is to add the database credentials to our UI fodler too.
+first step is to add the database credentials to our UI folder too.
 open the `UI/config/config.env` file and add the database creds to it:
 
 ```javascript
